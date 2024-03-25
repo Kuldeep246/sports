@@ -16,8 +16,10 @@ export default function Home() {
   const tickets = useRef(null);
 
   const handleScroll = () => {
-    tickets.current.scrollIntoView({ behavior: 'smooth' });
-  };
+    if (tickets.current) {
+      (tickets.current as HTMLElement).scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 
   return (
     <div className=" ">
