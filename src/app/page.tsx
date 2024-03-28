@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <div className=" ">
 
-      <div>
+      <div >
         <div className="flex sm:mt-14 mt-10  items-center justify-center">
           <div className="lg:w-5/6 sm:w-11/12  flex flex-col">
             <div className="flex justify-between w-full">
@@ -51,7 +51,7 @@ export default function Home() {
             onClick={handleScroll}>See More</Button>
         </div>
       </div>
-      <div ref={tickets} className="mx-auto flex flex-col justify-center   items-center w-5/6 mt-10 mb-20 bg-gradient-to-br from-lightBlue to-lightPurple " >
+      <div ref={tickets} className="mx-auto flex flex-col justify-center  items-center w-full sm:w-5/6 mt-10 mb-20 bg-gradient-to-br from-lightBlue to-lightPurple " >
         <div className="w-full dark:bg-gradient-to-b from-darkBlue to-darkPurple">
           <div className="flex flex-col justify-center mt-10 items-center mx-auto  w-5/6">
             <div className=" text-5xl font-bold leading-10  text-center">Collection Spotlight</div>
@@ -75,7 +75,9 @@ export default function Home() {
 
         </div>
       </div>
+      
 
-    </div>
+
+    </div >
   );
 }
