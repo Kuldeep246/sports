@@ -3,7 +3,6 @@
 ```bash
 npm run i
 
-```bash
 npm run dev
 # or
 yarn dev
