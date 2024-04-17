@@ -16,4 +16,5 @@ export interface Games {
   time:string;
   location:string;
   collection: string; 
+  name:string;
 }
